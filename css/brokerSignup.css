@@ -1,0 +1,200 @@
+body{
+  background:url("../images/website/rent.jpg") no-repeat;
+    background-attachment: fixed;
+  background-size:cover;
+}
+
+.signup{
+  position:absolute;
+  top:20%;
+  left:20%;
+  margin-top: 100px;
+  width:60%;
+  margin:auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius:15px;
+  padding-bottom: 4%;
+}
+.login{
+  position:absolute;
+  top:30%;
+  left:20%;
+  margin-top: 200px;
+  width:60%;
+  margin:auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius:15px;
+  padding-bottom: 7%;
+}
+.login label{
+  margin-top:20px;
+}
+.overlay{
+  position: fixed;
+  background-color:rgba(0,0,0, 0.5);
+  width:100%;
+  height:100%;
+}
+#aa-footer{
+  display:block;
+  position:absolute;
+  top:130%;
+}
+.form-title{
+  width:20%;
+  margin:auto;
+}
+.signup-form h2{
+  width:100%;
+  text-align: left;
+  margin-top:30px;
+  margin-left: 70px;
+}
+.signup-form input{
+  border:0;
+  border-bottom: solid black 1px;
+  padding:10px 20px;
+}
+.signup-form input:focus{
+  outline:0;
+}
+.signup-image{
+overflow: hidden;
+    position: absolute;
+    top: 30%;
+    right: 9%;
+}
+form{
+  margin-left: 70px;
+}
+.term-conditions{
+  color:blue;
+}
+#error{
+  color:red;
+  margin-left:70px;
+}
+.login-image{
+  overflow: hidden;
+    position: absolute;
+    top: 15%;
+    right: 9%;
+}
+
+/*
+********************************************************
+*\ RESPONSIVE DESIGN |
+********************************************************
+*/
+@media (max-width:600px){
+  .signup{
+    position:absolute;
+    left:5%;
+    width:90%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    min-height:150%;
+  }
+   .login{
+    position:absolute;
+    left:5%;
+    top:16%;
+    width:90%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    min-height:100%;
+  }
+.signup-image{
+overflow: hidden;
+    position: absolute;
+    top: 65%;
+    right: 6%;
+}
+.signup-image{
+  height:300px;
+  width:auto;
+}
+.login-image{
+  overflow: hidden;
+    position: absolute;
+    top: 45%;
+    right: 6%;
+  height:300px;
+  width:auto;
+}
+form{
+  margin-left: 20px;
+}
+#aa-footer{
+  display:block;
+  position:absolute;
+  top:170%;
+}
+.signup-form h2{
+  width:100%;
+  text-align: left;
+  margin-top:20px;
+  margin-left: 30px;
+}
+#error{
+  margin-left:30px;
+}
+}
+@media (min-width:601px) and (max-width: 1000px){
+  .signup{
+    position:absolute;
+    left:20%;
+    width:60%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    min-height:100%;
+  }
+  .login{
+    position:absolute;
+    left:20%;
+    width:60%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    min-height:100%;
+  }
+.signup-image{
+  display:none;
+overflow: hidden;
+    position: absolute;
+    top: 65%;
+    right: 6%;
+
+}
+
+.signup-image{
+  height:300px;
+  width:auto;
+}
+.login-image{
+  overflow: hidden;
+    position: absolute;
+    top: 45%;
+    right: 6%;
+  height:300px;
+  width:auto;
+}
+form{
+  margin-left: 50px;
+}
+#aa-footer{
+  display:block;
+  position:absolute;
+  top:120%;
+}
+.signup-form h2{
+  width:100%;
+  text-align: left;
+  margin-top:20px;
+  margin-left: 30px;
+}
+#error{
+  margin-left:30px;
+}
+}

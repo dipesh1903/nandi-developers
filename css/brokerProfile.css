@@ -1,0 +1,69 @@
+*{
+	padding:0;
+	margin:0;
+}
+.cover-image{
+	height:400px;
+	background: url("../images/website/brick_wall.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.profile_image{
+	height:150px;
+	width:150px;
+	border-radius:80px;
+	position:relative;
+	top:10%;
+	left:44%;
+	
+}
+#profile_image{
+	height:150px;
+	width:150px;
+	border-radius: 80px;
+	border:solid white 2px;
+}
+.activity{
+	min-height:200px;
+	padding-bottom:50px;
+}
+.broker_name{
+	position:relative;
+	top:60%;
+	text-align: center;
+	color:white;
+}
+.broker_name h2, .broker_name h4{
+	color:white;
+	text-transform: uppercase;
+}
+.cover-image .dropdown-toggle{
+	color:white;
+}
+.cover-image .dropdown{
+	position:absolute;
+	top:30%;
+	right:10%;
+}
+.activity h2{
+	margin-top:10px;
+	text-align: center;
+}
+.camera-icon{
+	color:white;
+	padding:7px;
+	border-radius:17px;
+	border:solid white 2px;
+	position:relative;
+	top:-50px;
+	left:52%;
+	background:black;
+	z-index: 999;
+}
+.camera-icon:hover{
+cursor:pointer;
+}
+#image_uploader{
+	display:none;
+}

@@ -1,0 +1,136 @@
+body{
+	background-color: #fdfdfd;
+	padding-bottom: 40px;
+}
+@media (min-width:1000px) {
+	.form{
+		width:80%;
+	}
+}
+.form{
+	margin:auto;
+}
+h1{
+	margin-top: 30px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color:#1dd43b;
+}
+
+.email_section{
+	background-color: white;
+	border-radius:10px;
+	box-shadow: 0 0 10px #dcdcdc ;
+	padding:20px 0px;
+}
+#email_otp, #phone_otp{
+	padding:10px 10px;
+	letter-spacing: 1.25em;
+	border:solid #7d92ff 2px;
+	border-radius: 20px;
+}
+#email_otp:focus, #phone_otp:focus{
+	outline:none;
+}
+#email_otp_btn, #phone_otp_btn{
+	height:40px;
+	padding:0 20px;
+	margin-left: 2rem;
+}
+#resend_phone_otp, #resend_email_otp{
+	height:20px;
+	padding:0 20px;
+	font-size: 1rem;
+}
+.phone_section{
+	margin-top: 10px;
+	background-color: white;
+	border-radius:10px;
+	box-shadow: 0 0 10px #dcdcdc ;
+	padding:20px 0px;
+}
+.email_label_section{
+	margin: 0;
+	text-align: right;
+}
+.phone_label_section{
+	text-align:right;
+}
+.address_section{
+	margin-top: 10px;
+	background-color: white;
+	border-radius:10px;
+	box-shadow: 0 0 10px #dcdcdc ;
+	padding:20px 0px;
+}
+#form_submit_btn{
+	text-align: center;
+	margin-top: 20px;
+}
+#email,#phone{
+	border: 0;
+	border-bottom:solid 1px black;
+	padding:3px 10px;
+	text-align: center;
+}
+#email:focus ,#phone{
+outline:0;
+}
+.email_otp_label, .phone_otp_label{
+	margin-top:40px;
+}
+#email_otp, #phone_otp{
+	margin-top:20px;
+}
+#send_email_otp_btn, #send_phone_otp_btn{
+	margin-left: 36px;
+	font-size:12px;
+}
+#email_otp_verify_btn, #phone_otp_verify_btn{
+	margin-left: 36px;
+	font-size: 13px;
+	height:32px;
+	padding:0 22px;
+}
+.email_otp_hidden{
+	display:none;
+}
+.phone_otp_hidden{
+	display:none;
+}
+#error_email{
+	margin:auto;
+	text-align: center;
+	color:red;
+	font-weight:400;
+}
+/*
+********************************************************
+*|RESPONSIVE|
+********************************************************
+*/
+@media (max-width:767px){
+	.email_label_section{
+	margin: 0;
+	text-align: center;
+}
+.phone_label_section{
+	text-align:center;
+}
+#email_otp, #phone_otp{
+	padding:10px 10px;
+	letter-spacing: 1.25em;
+	border:solid #7d92ff 2px;
+	border-radius: 20px;
+}
+.email_btn_section, .phone_btn_section{
+	position:relative;
+	left:10%;
+}
+h1{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 30px;
+}
+}

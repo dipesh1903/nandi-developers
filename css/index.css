@@ -1,0 +1,259 @@
+#check_selector{
+	padding:10px;
+	margin:0;
+	background-color: white;
+	display:inline;
+}
+#check_selector input{
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#check_selector p{
+margin-bottom: 0;
+font-size: 1.3rem;
+margin-left: 8px;
+}
+#residential{
+	display:none;
+}
+#commercial{
+	display:none;
+}
+#others{
+	display:none;
+}
+#done{
+	text-decoration: none;
+}
+#dropdown_menu{
+	margin-top: 10px;
+	width:180px;
+}
+.bhk{
+	display:none;
+}
+#dropdwon_toggle{
+	text-align: center;
+	margin: auto;
+	padding: 15px 60px;
+}
+.latest-property{
+	display:block;
+	text-align: left;
+}
+.latest-property h4{
+	text-transform: uppercase;
+    font-weight: 300;
+    color:#939393;
+}
+.latest-property h1{
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 40px;
+    line-height: 46px;
+    color:#939393;
+}
+.latest-property p{
+	font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+#latest_heading{
+	text-transform:uppercase;
+	color: #58aae3!important;
+    font-size: 40px;
+    line-height: 46px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+.latest-property button{
+	cursor: pointer;
+    background-color: #58aae3;
+   	color:white;
+   	text-transform: uppercase;
+   	font-weight: bold;
+    text-decoration: none;
+    padding:20px;
+}
+.latest-property button:hover{
+	cursor: pointer;
+    text-decoration: none;
+    animation:button-hover 3s ;
+}
+@keyframes button-hover{
+	0%{background-color:#58aae3; color:white;}
+	50%{background-color: black;color:white;}
+	100%{background-color:#58aae3; color:white;}
+}
+.latest_outer{
+	width:100%;
+}
+.latest_slider{
+	margin-top:30px;
+	background-color: white;
+	height:300px;
+	max-width: 80%;
+	float:right;
+    overflow: hidden;
+}
+.latest_slider div{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+.latest_slider div img{
+	display:block;
+	height:100%;
+	width:100%;
+}
+
+.latest_outer:before {
+	display:block;
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 78%;
+    height: 100%;
+    background-color: transparent;
+    border: 30px solid rgba(0,0,0,0.1);
+    
+}
+.premium strong{
+	display: block;
+	font-family: "Poppins",sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    color: rgba(191,191,191,0.3);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: 0;
+    padding:0;
+    margin-top:50px;
+}
+.premium h4{
+	margin-top:0;
+	display: block;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Roboto Condensed',sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+}
+#aa-premium{
+	display:inline;
+	width:100%;
+	float:left;
+}
+#aa-latest-property{
+	display:inline;
+	width:100%;
+	float:left;
+	background-color: white;
+}
+#aa-advance-search{
+	margin-bottom: 30px;
+}
+#aa-why-nandi{
+	display:inline;
+	width:100%;
+	float:left;
+	background-color: white;
+	padding-bottom:50px;
+}
+#why_nandi{
+	display:block;
+	position: relative;
+	min-height:460px;
+	width:100%;
+	background:url("../images/website/bridge.jpg")no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+
+.why-nandi-overlay{
+	display:block;
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width:100%;
+	height:100%;
+}
+#aa-why-nandi .aa-border{
+	display:block;
+	position:relative;
+	border-left:solid white 14px;
+	border-top:solid white 14px;
+	margin:20px;
+	margin-left:40px;
+	vertical-align: center;
+	margin-top:50px;
+}
+#aa-why-nandi .aa-border h1{
+	color:white;
+	text-transform: uppercase;
+	font-size: 40px;
+    line-height: 46px;
+    font-weight: 600;
+	font-family: "Poppins", sans-serif;
+
+}
+#aa-why-nandi .aa-border h2{
+color:#f3d027;
+text-transform: uppercase;
+font-family: "Poppins", sans-serif;
+}
+#aa-why-nandi .aa-border p{
+	font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color:rgba(256,256,256, 0.9);
+}
+.aa-border-inner{
+	padding:20px;
+}
+#aa-why-nandi i{
+    color:rgba(256,256,256, 0.9) ;
+    font-size: 20px;
+    height: 25px;
+    line-height: 50px;
+    width: 25px;
+}
+#fecilities{
+	display:block;
+	position:relative;
+	margin-top:90px;
+	margin-left:80px;
+	color:rgba(256,256,256, 0.9);
+	line-height:40px;
+	margin:20px;
+	}
+.fecilities{
+	text-align: right;
+	display:block;
+	border-right:solid white 14px;
+	border-bottom:solid white 14px;
+	margin-right:60px;
+	vertical-align: center;
+	margin-top:50px;
+}
+}
+#broker_name{
+	border-radius:20px;
+	border:solid #f3d027 3px;
+	padding:0;
+}
+/*
+********************************************************
+*|RESPONSIVE|
+********************************************************
+*/
+
+@media(max-width:600px){
+	.latest_slider{
+	max-width: 100%;
+}
+}

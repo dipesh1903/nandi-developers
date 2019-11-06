@@ -1,0 +1,403 @@
+body{
+	
+	background-color:#f1f1f1; 
+}
+
+element.style {
+}
+#aa-menu-area .main-navbar .navbar-nav  li a{
+	color:black;
+}
+.wrapper{
+	position:relative;
+	margin:auto;
+	margin-top:130px;
+	background-color:#fefefe;
+	box-shadow: 0 0 30px silver;
+	overflow:hidden;
+}
+#select_menu{
+	color:white;
+	/*height:100vh;*/
+	position: fixed;
+	top:15%;
+	background-color: #1c1c1b;
+	/*padding-bottom:100px;*/
+	/*padding-top:50px;*/
+	padding-right:0;
+	padding-left:0
+
+}
+#select_menu ul li{
+	padding:20px 0px;
+	background-color:black;
+	border:solid white 1px;
+}
+#select_menu a{
+	color:yellow;
+	font-size: 18;
+	font-weight: 600;
+margin-left:30px;
+}
+.content_wrapper{
+	position:absolute;
+	left:32%;
+	top:15%;
+	width:67%;
+	margin:auto;
+	background-color:#fefefe;
+	box-shadow: 0 0 30px silver;
+	overflow: hidden;
+}
+
+.menu_view{
+	margin-top: 0;
+	position: relative;
+	overflow:hidden;
+	width:100%;
+	padding:50px;
+	border-bottom:solid rgba(0,0,0,0.2) 2px;
+}
+.menu_view h3{
+	margin-top: 0;
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+	font-weight: 500;
+	font-size: 1.7em;
+	color:#5e23dc;
+}
+/*
+********************************************************
+*property details
+********************************************************
+*/
+#propertyDetails select{
+	width:170px;
+	padding:3px 10px;
+	outline:0;
+	border:0;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom:solid black 1px;
+}
+#property_type{
+	margin-top:10px;
+}
+#property_type label{
+	padding:10px 20px;
+}
+#property_type label:hover{
+	color:blue;
+	cursor:pointer;
+}
+#property_type_box{
+	padding:20px 0px;
+	border:dashed rgba(0,0,0,0.3) 1px;
+	height:auto;
+}
+#property_type_box ul{
+	display:block;
+}
+#apartment_icon{
+	position:relative;
+	left:40%;
+	width:60px;
+	height:auto;
+}
+#villa_icon{
+	position:relative;
+	left:30%;
+	width:110px;
+	height:auto;
+}
+#land_icon{
+	position:relative;
+	left:27%;
+	width:130px;
+	height:auto;
+}
+#office_icon{
+	position:relative;
+	left:30%;
+	width:120px;
+	height:auto;
+}
+#shop_icon{
+	position:relative;
+	left:35%;
+	width:60px;
+	height:auto;
+}
+#commercial_land_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#agricultural_icon{
+	position:relative;
+	left:34%;
+	width:60px;
+	height:auto;
+}
+#farm_icon{
+	position:relative;
+	left:27%;
+	width:70px;
+	height:auto;
+}
+#layout_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#property_type_box p{
+text-align: center;
+}
+#residential{
+	display:block;
+}
+#commercial{
+	display:none;
+}
+#others{
+	display:none;
+}
+.selected_property{
+	background-color:#92d89c;
+	background-size: 130% 130%;
+}
+#bhk_selector{
+	display:none;
+}
+#bhk_selector li{
+	display:inline;
+	padding:20px;
+}
+#property_type_box .row div:hover{
+	cursor:pointer;
+}
+#basic_details{
+	display:block;
+}
+
+/*
+********************************************************
+*LOCATION
+********************************************************
+*/
+#address_area{
+	width:90%;
+	margin-left:4%;
+}
+#map{
+	height:200px;
+	width:45%;
+	margin-left:6%;
+	border:solid silver 1px;
+}
+.map_label{
+	margin-left:6%;
+}
+
+/*
+********************************************************
+*FEATURES
+********************************************************
+*/
+#features{
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+}
+#features ::placeholder{
+	color:rgba(0,0,0,0.5);
+}
+#features #furnish label{
+	padding:4px 20px;
+	font-weight: 200;
+	margin-right:30px;
+	border-radius: 20px;
+	border:solid silver 1px;
+}
+
+#furnish_reset{
+	border-radius: none;
+}
+#builtUpArea{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#builtUpArea_input{
+	border:none;
+	outline:none;
+}
+#builtUpArea span{
+	float:right;
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+	font-weight:300;
+	font-size: 1.2em;
+	color:rgba(0,0,0,0.4);
+}
+#CarpetArea{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#CarpetArea_input{
+	border:none;
+	outline:none;
+}
+#CarpetArea span{
+	float:right;
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+	font-weight:300;
+	font-size: 1.2em;
+	color:rgba(0,0,0,0.4);
+}
+#FloorNum{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+#FloorNum_input{
+	border:none;
+	outline:none;
+	width:100%;
+}
+#TotalFloors{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#TotalFloors_input{
+	border:none;
+	outline:none;
+	width:100%;
+}
+
+#available_from{	
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#available_from_input{
+	border:none;
+	outline:none;
+	width:100%;
+}
+
+#PropertyAge{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#PropertyAge_input{
+	border:none;
+	outline:none;
+	width:80%;
+}
+#PropertyAge span{
+	float:right;
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+	font-weight:300;
+	font-size: 1.2em;
+	color:rgba(0,0,0,0.4);
+}
+#rent{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#rent_input{
+	border:none;
+	outline:none;
+	width:80%;
+}
+#maintenance{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#maintenance_input{
+	border:none;
+	outline:none;
+	width:80%;
+}
+#security_deposit{
+	position:relative;
+	border-bottom: solid rgba(0,0,0,0.2) 1px;
+	width:80%;
+}
+
+#security_deposit_input{
+	border:none;
+	outline:none;
+	width:80%;
+}
+
+#features #tenant label{
+	padding:4px 20px;
+	font-weight: 200;
+	margin-right:30px;
+	border-radius: 20px;
+	border:solid silver 1px;
+}
+
+#tenant_reset{
+	border-radius: none;
+}
+
+/*
+********************************************************
+*DESCRIPTION
+********************************************************
+*/
+#propertyDescription{
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+}
+#sample{
+	padding:10px;
+	border:solid rgba(0,0,0,0.3) 1px;
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+}
+
+/*
+********************************************************
+*PHOTO UPLOAD
+********************************************************
+*/
+#uploadPhotos{
+	font-family:Gotham SSm A,Gotham SSm B,sans-serif;
+}
+#photo_upload_div{
+	min-height: 200px;
+	border:dashed #5e23dc 2px;
+	position:relative;
+}
+#photo_upload_div .upload_btn{
+	width:250px;
+	margin:auto;
+	position:absolute;
+	top:30%;
+	left:38%;
+}
+#photo_upload_div .upload_btn p{
+	font-size: 0.8em;
+	color:rgba(0,0,0,0.5);
+	float:right;
+	margin-right: 50px;
+}
+#photo_upload_div .upload_btn img{
+	width:70px;
+	height:auto;
+	padding-right:20px;
+}
+#property_image_upload_form{
+	display:none;
+}

@@ -1,0 +1,13 @@
+<?php 
+session_start();
+if(isset($_SESSION['email']))
+{
+	if(isset($_POST['logout']))
+	{
+		session_destroy();
+	}
+}else{
+	header("Location:index.php");
+	exit();
+}
+ ?>

@@ -1,0 +1,164 @@
+body{
+	
+	background-color:#ededed; 
+}
+
+.wrapper{
+	position:relative;
+	margin:auto;
+	margin-top:130px;
+	background-color:#fefefe;
+	box-shadow: 0 0 30px silver;
+	overflow:hidden;
+}
+#select_menu{
+	color:white;
+	/*height:100vh;*/
+	position: fixed;
+	top:20%;
+	background-color: #1c1c1b;
+	/*padding-bottom:100px;*/
+	/*padding-top:50px;*/
+	padding-right:0;
+	padding-left:0
+
+}
+#select_menu ul li{
+	padding:20px 0px;
+	background-color:black;
+	border:solid white 1px;
+}
+#select_menu a{
+	color:yellow;
+	font-size: 18;
+	font-weight: 600;
+margin-left:30px;
+}
+.content{
+	margin:auto;
+	margin-top:130px;
+	background-color:#fefefe;
+	box-shadow: 0 0 30px silver;
+	overflow:hidden;
+	width:60vw;
+	height:70vh;
+	float:right;
+}
+.content div{
+	height:100%;
+}
+
+/*
+********************************************************
+*property details
+********************************************************
+*/
+#propertyDetails select{
+	width:170px;
+	padding:3px 10px;
+	outline:0;
+	border:0;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom:solid black 1px;
+}
+#property_type{
+	margin-top:10px;
+}
+#property_type label{
+	padding:10px 20px;
+}
+#property_type label:hover{
+	color:blue;
+	cursor:pointer;
+}
+#property_type_box{
+	padding:20px 0px;
+	border:solid black 1px;
+	height:auto;
+}
+#property_type_box ul{
+	display:block;
+}
+#apartment_icon{
+	position:relative;
+	left:40%;
+	width:60px;
+	height:auto;
+}
+#villa_icon{
+	position:relative;
+	left:30%;
+	width:110px;
+	height:auto;
+}
+#land_icon{
+	position:relative;
+	left:27%;
+	width:130px;
+	height:auto;
+}
+#office_icon{
+	position:relative;
+	left:30%;
+	width:120px;
+	height:auto;
+}
+#shop_icon{
+	position:relative;
+	left:35%;
+	width:60px;
+	height:auto;
+}
+#commercial_land_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#agricultural_icon{
+	position:relative;
+	left:34%;
+	width:60px;
+	height:auto;
+}
+#farm_icon{
+	position:relative;
+	left:27%;
+	width:70px;
+	height:auto;
+}
+#layout_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#property_type_box p{
+text-align: center;
+}
+#residential{
+	display:block;
+}
+#commercial{
+	display:none;
+}
+#others{
+	display:none;
+}
+.selected_property{
+	background-color:#92d89c;
+	background-size: 130% 130%;
+}
+#bhk_selector{
+	display:none;
+}
+#bhk_selector li{
+	display:inline;
+	padding:20px;
+}
+#property_type_box .row div:hover{
+	cursor:pointer;
+}
+#basic_details{
+	display:block;
+}

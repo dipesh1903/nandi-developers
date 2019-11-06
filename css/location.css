@@ -1,0 +1,173 @@
+body{
+	/*background:url("../images/website/admin_background1.jpg") no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;*/
+	background-color:#ededed; 
+}
+
+.wrapper{
+	margin-top:130px;
+	background-color:#fefefe;
+	box-shadow: 0 0 30px silver;
+	overflow:hidden;
+}
+#aa-menu-area .main-navbar .navbar-nav li a{
+	color:black;
+}
+#select_menu{
+	color:white;
+	background-color: #1c1c1b;
+	padding-bottom:100px;
+	padding-top:50px;
+	padding-right:0;
+	padding-left:0
+}
+#select_menu .button{
+	padding:10px;
+}
+#select_menu label{
+	color:#e6eb5c;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 300;
+	margin-left:10px;
+}
+#select_menu i{
+	font-size: 22px;
+	color:#e6eb5c;
+	margin-left:20px;
+}
+#select_menu .button:hover{
+	cursor:pointer;
+	background-color: white;
+}
+.selected{
+	background-color:white;
+}
+/*
+********************************************************
+*basic details
+********************************************************
+*/
+.basic_details{
+	
+}
+#property_for{
+	margin-top:30px;
+}
+#property_for select{
+	width:170px;
+	padding:3px 10px;
+	outline:0;
+	border:0;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom:solid black 1px;
+}
+#property_type{
+	margin-top:30px;
+}
+#property_type label{
+	padding:10px 20px;
+}
+#property_type label:hover{
+	color:blue;
+	cursor:pointer;
+}
+#property_type_box{
+	padding:20px 0px;
+	border:solid black 1px;
+
+}
+#property_type_box ul{
+	display:block;
+}
+#apartment_icon{
+	position:relative;
+	left:40%;
+	width:60px;
+	height:auto;
+}
+#villa_icon{
+	position:relative;
+	left:30%;
+	width:110px;
+	height:auto;
+}
+#land_icon{
+	position:relative;
+	left:27%;
+	width:130px;
+	height:auto;
+}
+#office_icon{
+	position:relative;
+	left:30%;
+	width:120px;
+	height:auto;
+}
+#shop_icon{
+	position:relative;
+	left:35%;
+	width:60px;
+	height:auto;
+}
+#commercial_land_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#agricultural_icon{
+	position:relative;
+	left:34%;
+	width:60px;
+	height:auto;
+}
+#farm_icon{
+	position:relative;
+	left:27%;
+	width:70px;
+	height:auto;
+}
+#layout_icon{
+	position:relative;
+	left:27%;
+	width:120px;
+	height:auto;
+}
+#property_type_box p{
+text-align: center;
+}
+#residential{
+	display:block;
+}
+#commercial{
+	display:none;
+}
+#others{
+	display:none;
+}
+.selected_property{
+	background-color:#92d89c;
+	background-size: 130% 130%;
+}
+#bhk_selector{
+	margin-top:20px;
+	display:none;
+}
+#bhk_selector li{
+	display:inline;
+	padding:20px;
+}
+#property_type_box .row div:hover{
+	cursor:pointer;
+}
+#basic_details{
+	display:block;
+}
+.error{
+	color:red;
+	font-size: 16px;
+	font-weight:600;
+}

@@ -1,0 +1,147 @@
+
+body{
+	background:url("../images/website/admin_background1.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+#admin{
+	color:white;
+	display:inline;
+	width:100%;
+	float:left;
+	margin-top:150px;
+}
+#greeting_message{
+	color:white;
+	font-size: 50px;
+	font-weight:600;
+	position:relative;
+	left:-600px;
+}
+#welcome{
+	font-size: 35px;
+	opacity:0;
+}
+#question{
+	text-align:center;
+	font-size: 35px;
+}
+#admin h1,#admin h2{
+	color:white;
+	font-family: 
+}
+.activities{
+	width:85%;
+	float:right;
+	margin:auto;
+}
+.activity{
+	padding:20px 0px;
+	border-radius:30px;
+	width:40%;
+	background-color:white;
+	text-align: center;
+	margin:20px;
+}
+.activity:hover{
+	background-color:#ddd;
+	cursor:pointer;
+}
+.activity p{
+	font-size:22px;
+	font-weight:600;
+	color:#59abe3;
+}
+
+/*
+********************************************************
+*RESPONSIVE
+********************************************************
+*/
+
+@media(max-width:600px){
+	#admin{
+		margin-top:100px;
+	}
+	#greeting_message{
+		font-size:35px;
+		margin-left:15px;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#welcome{
+		font-size:22px;
+		margin-left:15px;
+	}
+	#question{
+		font-size:22px;
+		margin-top:20px;
+	}
+	.activities{
+	width:100%;
+	margin:auto;
+	}
+	.activity{
+		width:80%;
+		margin:auto;
+		padding:10px 5px;
+		margin-bottom:10px;
+	}
+	.activity p{
+	font-size:16px;
+	font-weight:400;
+	}
+}
+@media (min-width:601px) and (max-width: 1000px){
+	#admin{
+		margin-top:100px;
+	}
+	#greeting_message{
+		font-size:35px;
+		margin-left:15px;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#welcome{
+		font-size:26px;
+		margin-left:15px;
+	}
+	#question{
+		font-size:26px;
+		margin-top:20px;
+	}
+	.activities{
+	width:80%;
+	margin:auto;
+	}
+	.activity{
+		width:80%;
+		margin:auto;
+		padding:10px 5px;
+		margin-bottom:10px;
+	}
+	.activity p{
+	font-size:20px;
+	font-weight:400;
+	}
+}
+
+/*
+********************************************************
+*animation
+********************************************************
+*/
+#greeting_message{
+	animation:sliding 2s forwards;
+}
+@keyframes sliding{
+100%{left:0;}
+}
+#welcome{
+	animation:emerge 3s forwards;
+	animation-delay:1.5s;
+}
+@keyframes emerge{
+100%{opacity:1;}
+}
